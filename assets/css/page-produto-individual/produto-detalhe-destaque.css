@@ -1,0 +1,5 @@
+.produto__detalhes--destaque {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

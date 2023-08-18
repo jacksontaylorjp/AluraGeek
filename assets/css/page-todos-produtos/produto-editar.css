@@ -1,0 +1,10 @@
+.produto__editar {
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.produto__editar:hover {
+    background: #2a7ae4;
+    cursor: pointer;
+}

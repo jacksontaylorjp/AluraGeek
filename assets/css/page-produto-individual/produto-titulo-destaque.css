@@ -1,0 +1,12 @@
+.produto__titulo--destaque {
+    color: #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .produto__titulo--destaque {
+        font-size: 22px;
+    }
+}

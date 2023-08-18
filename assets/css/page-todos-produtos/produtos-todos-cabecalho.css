@@ -1,0 +1,13 @@
+.produtos__todos--cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .produtos__todos--cabecalho {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

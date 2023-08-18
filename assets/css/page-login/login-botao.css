@@ -1,0 +1,34 @@
+.login__botao {
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 62px;
+    padding: 16px;
+    width: 448px;
+}
+
+.login__botao:hover {
+    background: #ffffff;
+    border: 1px #2a7ae4 solid;
+    color: #2a7ae4;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width: 480px) {
+    .login__botao {
+        width: 300px;
+    }
+}
+
+.erro__login {
+    color: red;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}

@@ -1,0 +1,18 @@
+.produto__img--destaque {
+    height: 403px;
+    width: 560px;
+}
+
+@media screen and (max-width: 768px) {
+    .produto__img--destaque {
+        height: auto;
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto__img--destaque {
+        height: 192px;
+        width: auto;
+    }
+}

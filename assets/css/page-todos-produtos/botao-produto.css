@@ -1,0 +1,19 @@
+.botao__produto {
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    width: 100%;
+}
+
+.botao__produto:hover {
+    background: #ffffff;
+    border: 1px #2a7ae4 solid;
+    color: #2a7ae4;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/logo/logo.css">
+    <link rel="stylesheet" href="/assets/css/logo/logo-img.css">
+    <link rel="stylesheet" href="/assets/css/logo/logo-imgText.css">
+    <link rel="stylesheet" href="/assets/css/logo/pesquisa/pesquisa-img.css">
+    <link rel="stylesheet" href="/assets/css/logo/pesquisa/pesquisa-input.css">
+    <link rel="stylesheet" href="/assets/css/logo/pesquisa/pesquisa.css">
+    <link rel="stylesheet" href="/assets/css/botao-login.css">
+    <link rel="stylesheet" href="/assets/css/page-login/login-botao.css">
+    <link rel="stylesheet" href="/assets/css/page-login/login-container.css">
+    <link rel="stylesheet" href="/assets/css/page-login/login-email.css">
+    <link rel="stylesheet" href="/assets/css/page-login/login-senha.css">
+    <link rel="stylesheet" href="/assets/css/page-login/login-titulo.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--contato--botao.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--contato--input--nome.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--contato--textarea.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--contato--titulo.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--contato.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--logo.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo--mapa.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-conteudo.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-desenvolvido.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-lista--item--mapa.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer-lista--mapa.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+                <img src="/assets/img/sports_esports_black_24dp 1.svg" alt="Logo" class="logo__img">
+                <img src="/assets/img/Texto.svg" alt="Logo" class="logo__imgText">
+            <div class="pesquisa">
+                <input type="text" class="pesquisa__input" placeholder="O que deseja encontrar?">
+                <img src="/assets/img/Icone.svg" alt="pesquisa" class="pesquisa__img">
+            </div>
+        </div>
+    </header>
+    <section class="login__container">
+        <h2 class="login__titulo">Iniciar Seção</h2>
+        <div class="container__email">
+            <input type="email" class="login__email" data-email>
+            <label for="" class="login__label-email">E-mail</label>
+            <span class="erro__login--email"></span>
+        </div>
+        <div class="container__senha">
+            <input type="password" class="login__senha" data-senha>
+            <label for="" class="login__label-senha">Senha</label>
+            <span class="erro__login--senha"></span>   
+        </div>
+        <button class="login__botao" data-btEntrar>Entrar</button>
+        <span class="erro__login"></span>   
+    </section>
+    <footer class="footer">
+        <div class="footer__conteudo">
+            <div class="footer__conteudo--logo">
+                <img src="/assets/img/sports_esports_black_24dp 1.svg" alt="Logo" class="logo__img">
+                <img src="/assets/img/Texto.svg" alt="Logo" class="logo__imgText">
+            </div>
+            <div class="footer__conteudo--mapa">
+                <ul class="footer__lista--mapa">
+                    <li class="footer__lista--item--mapa"><a href="#">Quem somos nós</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Política de privacidade</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Programa de fidelidade</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Nossas lojas</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Quero ser franqueado</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__conteudo--contato">
+            <span class="footer__conteudo--contato--titulo">Fale conosco</span>
+            <div class="container__nome">
+                <input type="text" class="footer__conteudo--contato--input--nome" >
+                <label for="" class="footer__conteudo--contato--label--nome">Nome</label>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" class="footer__conteudo--contato--textarea" placeholder="Escreva sua mensagem"></textarea>
+            <button class="footer__conteudo--contato--botao">Enviar mensagem</button>
+        </div>
+    </footer>
+    <div class="footer__desenvolvido">
+        <span class="footer__descricao">Desenvolvido por Jackson Taylor</span>
+        <span class="footer__descricao">2023</span>
+        <script type="module" src="/controller/validacaoLogin.js"></script>
+    </div>
+</body>
+</html>

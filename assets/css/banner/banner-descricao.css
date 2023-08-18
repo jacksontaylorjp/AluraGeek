@@ -1,0 +1,13 @@
+.banner__descricao {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:480px) {
+    .banner__descricao {
+        font-size: 16px;
+    }
+}

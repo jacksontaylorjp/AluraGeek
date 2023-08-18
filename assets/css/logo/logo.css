@@ -1,0 +1,10 @@
+.logo {
+display: flex;
+width: 60%;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: auto;
+    }
+}

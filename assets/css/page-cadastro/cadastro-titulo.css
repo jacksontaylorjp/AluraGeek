@@ -1,0 +1,14 @@
+.cadastro__titulo {
+    color: #464646;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .cadastro__titulo {
+        font-size: 22px;
+    }
+}

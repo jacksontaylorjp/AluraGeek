@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/logo/logo.css">
+    <link rel="stylesheet" href="assets/css/logo/logo-img.css">
+    <link rel="stylesheet" href="assets/css/logo/logo-imgText.css">
+    <link rel="stylesheet" href="assets/css/logo/pesquisa/pesquisa-img.css">
+    <link rel="stylesheet" href="assets/css/logo/pesquisa/pesquisa-input.css">
+    <link rel="stylesheet" href="assets/css/logo/pesquisa/pesquisa.css">
+    <link rel="stylesheet" href="assets/css/botao-login.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-botao.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-descricao.css">
+    <link rel="stylesheet" href="assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="assets/css/banner/banner.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-imagem.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-lista--item.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-lista.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-titulo--item.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-titulo.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-valor--item.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-verProduto.css">
+    <link rel="stylesheet" href="assets/css/produtos/produtos-cabecalho.css">
+    <link rel="stylesheet" href="assets/css/produtos/produtos-container.css">
+    <link rel="stylesheet" href="assets/css/produtos/produtos.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-txtVerTudo.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-imgVerTudo.css">
+    <link rel="stylesheet" href="assets/css/produtos/produto-verTudo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato--botao.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato--input--nome.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato--label--nome.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato--textarea.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato--titulo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--contato.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--logo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo--mapa.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-conteudo.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-desenvolvido.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-lista--item--mapa.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-lista--mapa.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="assets/img/sports_esports_black_24dp 1.svg" alt="Logo" class="logo__img">
+            <img src="assets/img/Texto.svg" alt="Logo" class="logo__imgText">
+            <div class="pesquisa">
+                <input type="text" class="pesquisa__input" placeholder="O que deseja encontrar?">
+                <img src="assets/img/Icone.svg" alt="pesquisa" class="pesquisa__img">
+            </div>
+        </div>
+        <button class="botao__login" data-btLogin>Login</button>
+    </header>
+    <section class="banner">
+        <h1 class="banner__titulo">Dezembro Promocional</h1>
+        <span class="banner__descricao">Produtos selecionados com 33% de desconto</span>
+        <button class="banner__botao">Ver consoles</button>
+    </section>
+    <section class="produtos">
+        <div class="produtos__container">
+            <div class="produtos__cabecalho">
+                <h2 class="produto__titulo">Star Wars</h2>
+                <div class="produto__verTudo">
+                    <span class="produto__txtVerTudo"><a href="#">Ver Tudo</a></span>
+                    <div class="produto__imgVerTudo"></div>
+                </div>
+            </div>
+            <ul class="produto__lista" data-produtoStarWars>
+                <!-- <li class="produto__lista--item">
+                    <img class="produto__imagem" src="/AluraGeek/assets/img/unsplash_1VV1MRafd7A.png" alt="produto">
+                    <h3 class="produto__titulo--item">Produto XYZ</h3>
+                    <span class="produto__valor--item">R$ 60,00</span>
+                    <span class="produto__verProduto"><a href="#">Ver produto</a></span>
+                </li>-->
+            </ul>
+        </div>
+        <div class="produtos__container">
+            <div class="produtos__cabecalho">
+                <h2 class="produto__titulo">Consoles</h2>
+                <div class="produto__verTudo">
+                    <span class="produto__txtVerTudo"><a href="#">Ver Tudo</a></span>
+                    <div class="produto__imgVerTudo"></div>
+                </div>
+            </div>
+            <ul class="produto__lista" data-produtoConsoles>
+                <!-- <li class="produto__lista--item">
+                    <img class="produto__imagem" src="/AluraGeek/assets/img/unsplash_0POwK6iAiRQ.png" alt="produto">
+                    <h3 class="produto__titulo--item">Controle XYZ</h3>
+                    <span class="produto__valor--item">R$ 60,00</span>
+                    <span class="produto__verProduto"><a href="#">Ver produto</a></span>
+                </li> -->
+            </ul>
+        </div>
+        <div class="produtos__container">
+            <div class="produtos__cabecalho">
+                <h2 class="produto__titulo">Diversos</h2>
+                <div class="produto__verTudo">
+                    <span class="produto__txtVerTudo"><a href="#">Ver Tudo</a></span>
+                    <div class="produto__imgVerTudo"></div>
+                </div>
+            </div>
+            <ul class="produto__lista" data-produtoDiversos>
+                <!-- <li class="produto__lista--item">
+                    <img class="produto__imagem" src="/AluraGeek/assets/img/unsplash_fMP-oCze3AY.png" alt="produto">
+                    <h3 class="produto__titulo--item">Camisa Atari</h3>
+                    <span class="produto__valor--item">R$ 60,00</span>
+                    <span class="produto__verProduto"><a href="#">Ver produto</a></span>
+                </li> -->
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__conteudo">
+            <div class="footer__conteudo--logo">
+                <img src="/assets/img/sports_esports_black_24dp 1.svg" alt="Logo" class="logo__img">
+                <img src="/assets/img/Texto.svg" alt="Logo" class="logo__imgText">
+            </div>
+            <div class="footer__conteudo--mapa">
+                <ul class="footer__lista--mapa">
+                    <li class="footer__lista--item--mapa"><a href="#">Quem somos nós</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Política de privacidade</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Programa de fidelidade</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Nossas lojas</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Quero ser franqueado</a></li>
+                    <li class="footer__lista--item--mapa"><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="footer__conteudo--contato">
+                <span class="footer__conteudo--contato--titulo">Fale conosco</span>
+                <div class="container__nome">
+                    <input type="text" class="footer__conteudo--contato--input--nome" >
+                    <label for="" class="footer__conteudo--contato--label--nome">Nome</label>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" class="footer__conteudo--contato--textarea" placeholder="Escreva sua mensagem"></textarea>
+                <button class="footer__conteudo--contato--botao">Enviar mensagem</button>
+            </div>
+    </footer>
+    <div class="footer__desenvolvido">
+        <span class="footer__descricao">Desenvolvido por Jackson Taylor</span>
+        <span class="footer__descricao">2023</span>
+    </div>
+    <script type="module" src="view/index.js"></script>
+</body>
+
+</html>

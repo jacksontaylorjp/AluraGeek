@@ -1,0 +1,4 @@
+.produtos__todos--container {
+    display: flex;
+    flex-direction: column;
+}

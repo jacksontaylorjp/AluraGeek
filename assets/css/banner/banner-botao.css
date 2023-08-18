@@ -1,0 +1,21 @@
+.banner__botao {
+    background: #2a7ae4;
+    border: none;
+    color: #ffffff;
+    flex-shrink: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    width: 20%;
+}
+
+.banner__botao:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .banner__botao {
+        width: 45%;
+    }
+}

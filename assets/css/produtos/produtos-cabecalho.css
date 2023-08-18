@@ -1,0 +1,4 @@
+.produtos__cabecalho {
+    display: flex;
+    justify-content: space-between;
+}

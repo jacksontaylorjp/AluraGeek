@@ -1,0 +1,9 @@
+.logo__img {
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .logo__img {
+        width: 20%;
+    }
+}

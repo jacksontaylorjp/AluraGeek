@@ -1,0 +1,12 @@
+.cadastro__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 560px;
+}
+
+@media screen and (max-width: 768px) {
+    .cadastro__formulario {
+        width: 100%;
+    }
+}

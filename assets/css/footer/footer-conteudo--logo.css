@@ -1,0 +1,6 @@
+.footer__conteudo--logo {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+}

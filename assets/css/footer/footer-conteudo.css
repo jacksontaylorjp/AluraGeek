@@ -1,0 +1,19 @@
+.footer__conteudo {
+    align-items: flex-start;
+    display: flex;
+    gap: 112px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__conteudo {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__conteudo {
+        align-items: center;
+    }
+}

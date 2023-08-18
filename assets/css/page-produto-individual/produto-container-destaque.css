@@ -1,0 +1,11 @@
+.produto__container--destaque {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .produto__container--destaque {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,7 @@
+.produto__container--delEdit {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    position: absolute;
+    width: 90%;
+}

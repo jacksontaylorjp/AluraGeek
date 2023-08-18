@@ -1,0 +1,18 @@
+.banner {
+    background-image: url(../../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 352px;
+    padding: 32px 96px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 32px 16px;
+    }
+}

@@ -1,0 +1,9 @@
+.logo__imgText {
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .logo__imgText {
+        width: 50%;
+    }
+}

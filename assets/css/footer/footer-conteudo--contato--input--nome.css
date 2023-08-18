@@ -1,0 +1,26 @@
+.container__nome {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__conteudo--contato--input--nome {
+    border: none;
+    box-shadow: 0 0.5px 0.5px #464646;
+    font-family: Raleway;
+    font-size: 16px;
+    height: 26px;
+    padding: 15px 12px 0px 12px;
+    position: relative;
+}
+
+.footer__conteudo--contato--input--nome:focus {
+    border-bottom: 1px #2a7ae4 solid;
+    outline: none;
+}
+
+.footer__conteudo--contato--label--nome {
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+}

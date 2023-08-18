@@ -1,0 +1,6 @@
+.produto__container--individual {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    order: 2;
+}

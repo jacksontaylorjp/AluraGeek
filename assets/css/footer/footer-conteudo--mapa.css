@@ -1,0 +1,11 @@
+.footer__lista--mapa {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer__lista--mapa {
+        align-items: center;
+    }
+}

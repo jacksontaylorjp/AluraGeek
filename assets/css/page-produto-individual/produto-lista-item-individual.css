@@ -1,0 +1,18 @@
+.produto__lista--item--individual {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .produto__lista--item--individual:nth-child(n+5) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto__lista--item--individual {
+        width: 50%;
+    }
+}

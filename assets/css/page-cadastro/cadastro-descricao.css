@@ -1,0 +1,12 @@
+.cadastro__descricao {
+    border: none;
+    box-shadow: 0 0.5px 0.5px #464646;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.cadastro__descricao:focus {
+    border-bottom: 1px #2a7ae4 solid;
+    outline: none;
+}

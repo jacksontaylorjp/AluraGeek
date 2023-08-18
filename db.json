@@ -1,0 +1,131 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "senha": "admin"
+    }
+  ],
+  "produtos": [
+    {
+      "url": "/assets/img/unsplash_1VV1MRafd7A.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "99",
+      "descricao": "Star Wars",
+      "id": 1
+    },
+    {
+      "url": "/assets/img/unsplash_4OHkK555s1A.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "512",
+      "descricao": "Star Wars",
+      "id": 2
+    },
+    {
+      "url": "/assets/img/unsplash_6FDXGY9J6y4.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "512",
+      "descricao": "Star Wars",
+      "id": 3
+    },
+    {
+      "url": "/assets/img/unsplash_R8L1l9RN198.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "512",
+      "descricao": "Star Wars",
+      "id": 4
+    },
+    {
+      "url": "/assets/img/unsplash_epRFE_hBNjo.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "512",
+      "descricao": "Star Wars",
+      "id": 5
+    },
+    {
+      "url": "/assets/img/unsplash_KeGToDVN0l4.png",
+      "categoria": "Star Wars",
+      "nome": "Star Wars",
+      "preco": "512",
+      "descricao": "Star Wars",
+      "id": 6
+    },
+    {
+      "url": "/assets/img/unsplash_0POwK6iAiRQ.png",
+      "categoria": "Consoles",
+      "nome": "Consoles",
+      "preco": "512",
+      "descricao": "Consoles",
+      "id": 7
+    },
+    {
+      "url": "/assets/img/unsplash_caNzzoxls8Q.png",
+      "categoria": "Consoles",
+      "nome": "Consoles",
+      "preco": "512",
+      "descricao": "Consoles",
+      "id": 9
+    },
+    {
+      "url": "/assets/img/unsplash_jMT6BrgBuXU.png",
+      "categoria": "Consoles",
+      "nome": "Consoles",
+      "preco": "512",
+      "descricao": "Consoles",
+      "id": 10
+    },
+    {
+      "url": "/assets/img/unsplash_k-xYhI3-gJM.png",
+      "categoria": "Consoles",
+      "nome": "Consoles",
+      "preco": "512",
+      "descricao": "Consoles",
+      "id": 11
+    },
+    {
+      "url": "/assets/img/unsplash_wa5z9o9fgjw.png",
+      "categoria": "Consoles",
+      "nome": "Consoles",
+      "preco": "512",
+      "descricao": "Consoles",
+      "id": 12
+    },
+    {
+      "url": "/assets/img/unsplash_MxVkWPiJALs.png",
+      "categoria": "Diversos",
+      "nome": "Diversos",
+      "preco": "512",
+      "descricao": "Diversos",
+      "id": 13
+    },
+    {
+      "url": "/assets/img/unsplash_sYVY_ZKwaxU.png",
+      "categoria": "Diversos",
+      "nome": "Diversos",
+      "preco": "512",
+      "descricao": "Diversos",
+      "id": 16
+    },
+    {
+      "url": "/assets/img/unsplash_ZV7lnfyQLmA.png",
+      "categoria": "Diversos",
+      "nome": "Diversos",
+      "preco": "512",
+      "descricao": "Diversos",
+      "id": 17
+    },
+    {
+      "url": "/assets/img/unsplash_bUgaIaZysH0.png",
+      "categoria": "Diversos",
+      "nome": "Diversos",
+      "preco": "512",
+      "descricao": "Diversos",
+      "id": 18
+    }
+  ]
+}
