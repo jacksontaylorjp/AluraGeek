@@ -40,14 +40,17 @@ listaProdutos();
 
 async function deletarProdutos() {
     try {
-        document.querySelector(".produto__todos--lista").addEventListener("click", (evento) => {
-            if (evento.target.classList.contains("produto__deletar")) {
-                //acessando o elemento do produto
-                const elemento = document.getElementById(evento.target.id);
-                //acesssando o id do elemento produto
-                const id = elemento.getAttribute("id");
-                conectaApi.deletaProduto(id);
-            }
+        document.addEventListener("click", (evento) => {
+            const elemento = document.getElementById(evento.target.id);
+            console.log("🚀 ~ file: produtos-todos.js:45 ~ document.querySelector ~ elemento:", elemento)
+            const id = elemento.getAttribute("id");
+            conectaApi.deletaProduto(id);
+
+            // if (evento.target.classList.contains("produto__deletar")) {
+            //     //acessando o elemento do produto
+            //     const elemento = document.getElementById(evento.target.id);
+            //     //acesssando o id do elemento produto
+            // }
         })
     } catch {
         alert("Não  foi possivel excluir o produto")
